@@ -4,9 +4,6 @@ USE Wn_db
 
 
 
-CREATE TABLE Balance(
-bal_id INT primary key identity,
-bal_usuario VARCHAR(200), 
 /*Direcciones del cliente o usuario*/
 CREATE TABLE Direcciones(
 dir_id INT PRIMARY KEY IDENTITY,
